@@ -1,7 +1,6 @@
 {
   "name": "bdd",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
@@ -12,5 +11,6 @@
   "license": "ISC",
   "devDependencies": {
     "@cucumber/cucumber": "^10.8.0"
-  }
+  },
+  "description": ""
 }

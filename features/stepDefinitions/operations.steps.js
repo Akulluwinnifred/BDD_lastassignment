@@ -40,3 +40,42 @@ const assert = require('assert');
     When('i multiply by {int}', function(input){
         answer *= input;	
     });
+
+    When('i subtract {int}', function(input){
+        answer -= input;	
+    });
+    When('i divide by {int}', function(input){
+        answer /= input;	
+    });
+    When('i divide by to find modulus {int}', function(input){
+        answer %= input;	
+    });
+    When('i raise to the power of {int}', function(input){
+        answer **= input;	
+    });
+    When('i increment it', function () {
+        answer++;  
+    });
+    When('i decrement it', function () {
+        answer--;  
+    });
+    When('i compare with {int}', function (input) {
+        answer = answer > input; 
+    });
+    
+    When('i compare with {int} which is bigger', function (input) {
+        answer = answer < input; 
+    });
+    When('i compare with {int} which is smaller', function (input) {
+        answer = answer < input; 
+    });
+    
+    Then('i end up with true', function () {
+        return 'true';
+      });
+    Then('i end up with false', function () {
+        return 'false';
+      });
+    
+
+   
